@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3001;
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('./hogwarts.db');
 const cors = require('cors');

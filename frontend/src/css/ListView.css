@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/images/background.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Utilize CSS custom properties for positioning */
+.house-point {
+    position: absolute;
+    font-size: 4vw; /* Responsive font size */
+    color: black;
+}
